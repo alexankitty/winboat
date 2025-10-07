@@ -297,7 +297,7 @@
                         <div class="flex flex-row gap-2 items-center mb-2">
                             <Icon class="inline-flex text-violet-400 size-8" icon="uil:monitor"></Icon>
                             <h1 class="my-0 text-lg font-semibold">
-                                Multi Monitor Support
+                                Multi-Monitor Support
                             </h1>
                         </div>
                         <p class="text-neutral-400 text-[0.9rem] !pt-0 !mt-0">
