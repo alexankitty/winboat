@@ -614,6 +614,7 @@ export class Winboat {
         /sound:sys:pulse\
         /microphone:sys:pulse\
         /floatbar\
+        ${this.#wbConfig?.config.multiMonitor ? '/multimon' : ''}\
         ${this.#wbConfig?.config.smartcardEnabled ? '/smartcard' : ''}\
         /compression\
         /scale:${this.#wbConfig?.config.scale ?? 100}\
