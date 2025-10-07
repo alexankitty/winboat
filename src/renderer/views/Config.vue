@@ -289,8 +289,8 @@
                         </x-select>
                     </div>
                 </x-card>
-
-                <!-- Display Scaling -->
+                
+                <!-- WM Class Prefix -->
                 <x-card
                     class="flex relative z-10 flex-row justify-between items-center p-2 py-3 my-0 w-full backdrop-blur-xl backdrop-brightness-150 bg-neutral-800/20">
                     <div>
