@@ -289,7 +289,7 @@
                         </x-select>
                     </div>
                 </x-card>
-                
+
                 <!-- WM Class Prefix -->
                 <x-card
                     class="flex relative z-10 flex-row justify-between items-center p-2 py-3 my-0 w-full backdrop-blur-xl backdrop-brightness-150 bg-neutral-800/20">
@@ -308,7 +308,7 @@
                         <x-input
                             class="max-w-32 text-right text-[1.1rem]"
                             :value="wbConfig.config.wmClassPrefix"
-                            @input="(e: any) => wbConfig.config.wmClassPrefix = e.target.value || ''"
+                            @input="(e: any) => wbConfig.config.wmClassPrefix = e.target.value"
                         ></x-input>
                     </div>
                 </x-card>
