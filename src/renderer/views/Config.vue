@@ -290,6 +290,29 @@
                     </div>
                 </x-card>
 
+                <!-- Display Scaling -->
+                <x-card
+                    class="flex relative z-10 flex-row justify-between items-center p-2 py-3 my-0 w-full backdrop-blur-xl backdrop-brightness-150 bg-neutral-800/20">
+                    <div>
+                        <div class="flex flex-row gap-2 items-center mb-2">
+                            <Icon class="inline-flex text-violet-400 size-8" icon="uil:scaling-right"></Icon>
+                            <h1 class="my-0 text-lg font-semibold">
+                                WM Class Prefix
+                            </h1>
+                        </div>
+                        <p class="text-neutral-400 text-[0.9rem] !pt-0 !mt-0">
+                            Controls the prefix used for the WM_CLASS property of application windows. This can help with window management and theming in certain desktop environments.
+                        </p>
+                    </div>
+                    <div class="flex flex-row gap-2 justify-center items-center">
+                        <x-input
+                            class="max-w-32 text-right text-[1.1rem]"
+                            :value="wbConfig.config.wmClassPrefix"
+                            @input="(e: any) => wbConfig.config.wmClassPrefix = e.target.value || ''"
+                        ></x-input>
+                    </div>
+                </x-card>
+
                 <!-- Smartcard Passthrough -->
                 <x-card
                     class="flex flex-row justify-between items-center p-2 py-3 my-0 w-full backdrop-blur-xl backdrop-brightness-150 bg-neutral-800/20">
