@@ -295,7 +295,7 @@
                     class="flex relative z-10 flex-row justify-between items-center p-2 py-3 my-0 w-full backdrop-blur-xl backdrop-brightness-150 bg-neutral-800/20">
                     <div>
                         <div class="flex flex-row gap-2 items-center mb-2">
-                            <Icon class="inline-flex text-violet-400 size-8" icon="uil:scaling-right"></Icon>
+                            <Icon class="inline-flex text-violet-400 size-8" icon="uil:window"></Icon>
                             <h1 class="my-0 text-lg font-semibold">
                                 WM Class Prefix
                             </h1>
