@@ -11,7 +11,7 @@ export type WinboatConfigObj = {
     passedThroughDevices: PTSerializableDeviceInfo[];
     customApps: WinApp[]
     experimentalFeatures: boolean
-    multiMonitor: boolean
+    multiMonitor: number
 };
 
 const defaultConfig: WinboatConfigObj = {
@@ -21,7 +21,7 @@ const defaultConfig: WinboatConfigObj = {
     passedThroughDevices: [],
     customApps: [],
     experimentalFeatures: false,
-    multiMonitor: false,
+    multiMonitor: 0,
 };
 
 export class WinboatConfig { 
