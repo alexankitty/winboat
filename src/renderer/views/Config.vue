@@ -313,6 +313,29 @@
                     </div>
                 </x-card>
 
+                <!-- Multi Monitor -->
+                <x-card
+                    class="flex flex-row justify-between items-center p-2 py-3 my-0 w-full backdrop-blur-xl backdrop-brightness-150 bg-neutral-800/20">
+                    <div>
+                        <div class="flex flex-row gap-2 items-center mb-2">
+                            <Icon class="inline-flex text-violet-400 size-8" icon="uil:monitor"></Icon>
+                            <h1 class="my-0 text-lg font-semibold">
+                                Multi Monitor
+                            </h1>
+                        </div>
+                        <p class="text-neutral-400 text-[0.9rem] !pt-0 !mt-0">
+                            If enabled, you can use multiple monitors with Windows applications.
+                        </p>
+                    </div>
+                    <div class="flex flex-row gap-2 justify-center items-center">
+                        <x-switch
+                            :toggled="wbConfig.config.multiMonitor"
+                            @toggle="(_: any) => wbConfig.config.multiMonitor = !wbConfig.config.multiMonitor"
+                            size="large"
+                        ></x-switch>
+                    </div>
+                </x-card>
+
                 <!-- Smartcard Passthrough -->
                 <x-card
                     class="flex flex-row justify-between items-center p-2 py-3 my-0 w-full backdrop-blur-xl backdrop-brightness-150 bg-neutral-800/20">

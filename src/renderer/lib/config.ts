@@ -12,6 +12,7 @@ export type WinboatConfigObj = {
     customApps: WinApp[]
     experimentalFeatures: boolean
     wmClassPrefix: string
+    multiMonitor: boolean
 };
 
 const defaultConfig: WinboatConfigObj = {
@@ -22,6 +23,7 @@ const defaultConfig: WinboatConfigObj = {
     customApps: [],
     experimentalFeatures: false,
     wmClassPrefix: "winboat-",
+    multiMonitor: false,
 };
 
 export class WinboatConfig { 
